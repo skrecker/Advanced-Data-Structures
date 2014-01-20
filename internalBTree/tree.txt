@@ -1,0 +1,43 @@
+add REcursive(Node, element){
+	
+	for(int i = 0; i < size; i++){
+
+		if(compare < 0){
+			if(links.get(i).isFull()){
+				links.add(i,links.promote());
+				btNode.addLink(i+1);
+
+				for(int j = 0; link size +1)
+				links.get(i+1);
+
+				if(i < element){
+					if(i isLeaf())
+						add(element, node(i))
+					else{
+						addRecursive(node(i), element)
+					}
+				}else{
+					if(i+1 isLeaf){
+						add(element, node(i+1));
+					}else{
+						add(recursive, node(i+1));
+					}
+				}
+
+
+			}else{
+				if(right isLeaf()){
+					links.get(i).add(element);
+				}else{
+					add(Node.right, element);
+				}
+			}
+
+
+		}
+
+
+	}
+
+
+}

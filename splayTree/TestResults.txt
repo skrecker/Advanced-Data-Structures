@@ -1,0 +1,40 @@
+Results of the Splay Tree Insert Test 1
+Date: 10/8/2013
+
+Result: FAILED
+
+Test Passed At:
+			FIRST TEST
+			SECOND TEST
+			THIRD TEST
+			FOURTH TEST
+
+Test Failed at: 
+			FIFTH TEST 
+
+	Issues:
+		- Not splaying correctly when adding to right-right
+			- When splaying for right-right the algorithm needs to start from the root 
+
+	Fix:
+		- changed recursive splayInsert to 
+
+
+Results of Splay Tree Insert Test 2
+Date: 10/8/2013
+
+Result: Passed
+
+Test Passed At:
+			FIRST TEST
+			SECOND TEST
+			THIRD TEST
+			FOURTH TEST
+			FIFTH TEST
+			SIXTH TEST
+
+
+
+
+
+
